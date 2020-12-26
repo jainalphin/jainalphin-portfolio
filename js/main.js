@@ -58,7 +58,7 @@ $(document).ready( function() {
 
 
 // SIDEBAR SCROLL
-			$(function(){
+		$(function(){
 			 $('.widget-out').perfectScrollbar({
 				wheelSpeed:50
 		});
@@ -82,6 +82,7 @@ $(document).ready( function() {
 		$('.responsive-menu').click(function(){
 				$('.top-menu li').slideToggle();
 			});
+            
             
 
 /* Contact Form JS*/
