@@ -1,7 +1,7 @@
 $(window).load(function() {	
 	
 	//PRELOADER
- $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+ $('#preloader').delay(1).fadeOut('fast'); // will fade out the white DIV that covers the website.
 	
 		
 	
@@ -24,7 +24,7 @@ $(window).load(function() {
 			$(".portfolio_items").isotope({
 				filter: selector,
 				animationOptions: {
-					duration: 750,
+					duration: 1,
 					easing: 'linear',
 					queue: false,
 				}
@@ -60,7 +60,7 @@ $(document).ready( function() {
 // SIDEBAR SCROLL
 		$(function(){
 			 $('.widget-out').perfectScrollbar({
-				wheelSpeed:50
+				wheelSpeed:1
 		});
 		});	
 		
@@ -141,3 +141,4 @@ $(document).ready( function() {
     });
    
 })(jQuery);
+
